@@ -1,2 +1,2 @@
 ## CLOUD NATIVE ##
-![Alt text](images/example-image.png)
+![Alt text](images/dashboard.jpg)
