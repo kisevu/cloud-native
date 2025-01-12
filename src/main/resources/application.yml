@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: cloud-native
+
+
+demo:
+  message: Kevin Ameda Kisevu is a senior Java Developer with Java

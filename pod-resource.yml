@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloud-native-k8s
+spec:
+  selector:
+    matchLabels:
+      app: cloud-native-k8s
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: cloud-native-k8s
+    spec:
+      containers:
+        - name: cloud-native-k8s
+          image: ameda/cloud-native:0.0.1-SNAPSHOT
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+
+
